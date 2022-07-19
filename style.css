@@ -1,0 +1,32 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+body{
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    background-color: rgb(248, 238, 238);
+}
+/* main--start */
+.main-section{
+            width: 950px;
+            height: 450px;
+            background-color: black;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 50px 100px;
+            padding: 50px 100px;
+            display: flex;
+            justify-content: ;
+}
+.bann
+.banner-details h1{
+    width: 50%;
+    font-size: 90px;
+    font-weight: 700;
+}
+.btn{
+
+}
+.banner{
+  width: 50%;
+}
+/* main-end */
