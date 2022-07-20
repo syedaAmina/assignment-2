@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 body{
     font-family: 'Mukta', sans-serif;
-    color: white;
+    
     background-color: rgb(248, 238, 238);
 }
 /* main--start */
 .main-section{
             width: 950px;
             height: 450px;
+            color: white;
             background-color: black;
             border: 5px solid black;
             border-radius: 10px;
@@ -30,3 +31,59 @@ body{
   width: 50%;
 }
 /* main-end */
+/* middle-part-start*/
+
+.container{
+ width: 100%;
+ display: flex;
+}
+.sidebar{
+  width: 220px;
+  height: 190px;
+  border:2px solid rgb(238, 242, 243);
+  border-radius: 10px;
+ background-color: black
+}
+
+.sidebar a{
+  text-decoration:none;
+  font-weight: 800;
+}
+
+.side-tools{
+  width: 180px;
+  height: 42px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px 20px;
+  padding: 5px 15px;
+  
+}
+.side-tools:hover{
+  background-color: rgb(245, 43, 43);
+}
+/* blog part  */
+.grid-layout{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+.blogs{
+  width: 312px;
+  height: 360px;
+  border: 2px solid mediumvioletred;
+}
+.blog image{
+  width: 312px; ;
+  height: 200px;
+}
+.fa-clock{
+font-size: 12px;
+color: grey;
+}
+.fa-message{
+font-size: 12px;
+color: grey;
+}
+
+/* middle-part-end */
