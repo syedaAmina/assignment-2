@@ -4,27 +4,39 @@ body{
   width: 100%;
     font-family: 'Mukta', sans-serif;
     background-color: white;
+
 }
 /* main--start */
-.main-section{
-            width: 1100px;
-            height: 500px;
-            color: white;
-            background-color: black;
-            border: 5px solid black;
-            border-radius: 10px;
-            margin: 40px 70px ;
-            padding: 50px 100px;
-            display:flex;
+.main-section {
+  width: 95%;
+  color: white;
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+  display: flex;
+  margin: 35px;
+  overflow: hidden;
 }
+
+.banner-details {
+  padding: 30px;
+}
+
  #top{
     width: 50%;
     font-size: 52px;
     font-weight: 700;
 }
+
 .banner{
-  height: 555px;
+  height: auto;
 }
+
+.banner img {
+  width: 100%;
+  height: 540px;
+}
+
 .btn{
 width:120px;
 height:40px;
@@ -114,7 +126,7 @@ margin-right: 10px;
 .view{
 display: flex;
 justify-content: center;
-display: none;
+visibility:hidden;
 }
 .view-all{
  width: 100px;
@@ -188,13 +200,21 @@ display: none;
   /* responsive for mobile  */
 
 @media  screen and (max-width:576px){
-.main-section{
-  flex-direction:column;
-}
-.banner-details{
-  float:left;
-  width:100%
 
+.main-section {
+  width: 95%;
+  color: white;
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 88%;
+  height: 350px;
 }
 
 .container{
@@ -218,16 +238,16 @@ display: none;
   .main-section{
     display: block;
   }
+  .view{
+    .view{
+      display: flex;
+      justify-content: center;
+      visibility: visible;
+      }
+  }
   .grid-layout{
     grid-template-columns: repeat(2,1fr);
   }
-  /* aeta thakte hobe  */
-  .view{
-display: flex;
-justify-content: center;
-    display:block;
-  }
-  /* .view ta sudu , */
  }
 
 
