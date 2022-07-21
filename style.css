@@ -221,6 +221,13 @@ display: none;
   .grid-layout{
     grid-template-columns: repeat(2,1fr);
   }
+  /* aeta thakte hobe  */
+  .view{
+display: flex;
+justify-content: center;
+    display:block;
+  }
+  /* .view ta sudu , */
  }
 
 
